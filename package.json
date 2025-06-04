@@ -1,0 +1,30 @@
+{
+  "name": "fontes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --forceExit --detectOpenHandles  --verbose",
+    "dev": "node --watch src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "dote": "^1.1.0",
+    "dotenv": "^16.5.0",
+    "env": "^0.0.2",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "knex": "^3.1.0",
+    "pg": "^8.16.0",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
